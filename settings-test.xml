@@ -202,7 +202,7 @@ under the License.
                 <jdk>1.8</jdk>
             </activation>
             <properties>
-                <jmeter.fileName>AUX_API_Test*</jmeter.fileName>
+                <jmeter.fileName>AUX_API_Test</jmeter.fileName>
             </properties>
         </profile>
     </profiles>
