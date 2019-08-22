@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9523bf4e-49d5-42b2-b01b-b9da060987a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/jmeter/TestAPI_Demo.jmx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/jmeter/jmeter.properties" afterDir="false" />
+    <list default="true" id="9523bf4e-49d5-42b2-b01b-b9da060987a5" name="Default Changelist" comment="update pom.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_AppOnlinePay_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_AppPromotionApply_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_AppRegister_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_AppTerminalApply_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_PcOrderRefund_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_TcFixedCoupon_190822.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/idCard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/images/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apitest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apitest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/settings-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jmeter/AUX_API_Test.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_PcNoPayClosed_190822.jmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/jmeter/TestAPI_Demo_20190520.jmx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/jmeter/CBS_AppOrder_190822.jmx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +46,35 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings-test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1450">
+              <caret line="256" column="11" lean-forward="true" selection-start-line="256" selection-start-column="11" selection-end-line="256" selection-end-column="11" />
+              <folding>
+                <element signature="e#40#805#0" />
+                <element signature="e#807#1849#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jmeter.save.saveservice.output_format</find>
+      <find>groovy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -36,8 +84,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/apitest.iml" />
+        <option value="$PROJECT_DIR$/settings-test.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\IdeaProjects\maven_stores" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -50,22 +108,17 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="apitest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="apitest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="30" />
-    <option name="width" value="1890" />
-    <option name="height" value="960" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,19 +126,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="apitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="apitest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="apitest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="apitest" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apitest" type="b2602c69:ProjectViewProjectNode" />
@@ -107,26 +153,36 @@
             </path>
             <path>
               <item name="apitest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apitest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apitest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/jmeter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\apitest\src\test\jmeter" />
+      <recent name="D:\IdeaProjects\apitest" />
       <recent name="D:\IdeaProjects\apitest\src\test\resources" />
     </key>
   </component>
@@ -143,7 +199,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\renfengdong\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -153,17 +209,95 @@
       <option name="presentableId" value="Default" />
       <updated>1558146749703</updated>
       <workItem from="1558146751764" duration="814000" />
-      <workItem from="1558147704679" duration="2367000" />
+      <workItem from="1558147704679" duration="8320000" />
+      <workItem from="1558159439814" duration="4083000" />
+      <workItem from="1558167306357" duration="1180000" />
+      <workItem from="1558168519718" duration="2093000" />
+      <workItem from="1558323228260" duration="5306000" />
+      <workItem from="1558346843120" duration="432000" />
+      <workItem from="1559267869725" duration="21000" />
+      <workItem from="1565856140460" duration="1231000" />
+      <workItem from="1566261718298" duration="2071000" />
+      <workItem from="1566355133471" duration="1189000" />
+      <workItem from="1566377878994" duration="2287000" />
+      <workItem from="1566463755472" duration="180000" />
     </task>
+    <task id="LOCAL-00001" summary="update demo">
+      <created>1558150356601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558150356601</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update demo">
+      <created>1558150401100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558150401100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update demo">
+      <created>1558156133365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558156133365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update pom.xml">
+      <created>1558163125133</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558163125133</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pom.xml">
+      <created>1558333556015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558333556015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="参数化文件名 pom.xml">
+      <created>1558333928846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558333928846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update new jmx">
+      <created>1566262249908</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566262249908</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update setting.xml">
+      <created>1566262684748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566262684748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3181000" />
+    <option name="totallyTimeSpent" value="29207000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26677445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -172,22 +306,22 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14920071" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.18650089" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.08703375" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.15521424" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.14632174" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -196,28 +330,92 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update demo" />
+    <MESSAGE value="参数化文件名 pom.xml" />
+    <MESSAGE value="update pom.xml" />
+    <MESSAGE value="update new jmx" />
+    <MESSAGE value="update setting.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update setting.xml" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/jmeter/TestAPI_Demo.jmx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+    <entry file="file://$PROJECT_DIR$/target/jmeter/logs/TestAPI_Demo.jmx.log" />
+    <entry file="file://$PROJECT_DIR$/target/config.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/jmeter/TestAPI_Demo_20190520.jmx" />
+    <entry file="file://$PROJECT_DIR$/target/jmeter/results/TestAPI_Demo.html" />
+    <entry file="file://$PROJECT_DIR$/src/test/jmeter/AUX_API_Test.jmx" />
     <entry file="file://$PROJECT_DIR$/apitest.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="22">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/jmeter/jmeter.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="528" column="41" lean-forward="true" selection-start-line="528" selection-start-column="41" selection-end-line="528" selection-end-column="41" />
+        <state relative-caret-position="58">
+          <caret line="528" column="32" lean-forward="true" selection-start-line="528" selection-start-column="32" selection-end-line="528" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="256" column="11" lean-forward="true" selection-start-line="256" selection-start-column="11" selection-end-line="256" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#805#0" />
+            <element signature="e#807#1849#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="154">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

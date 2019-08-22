@@ -185,24 +185,72 @@ under the License.
          | This profile example uses the JDK version to trigger activation, and provides a JDK-specific repo.
         -->
         <profile>
-            <id>TestAPI_Demo</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <jdk>1.8</jdk>
-            </activation>
+            <id>CBS_AppRegister</id>
             <properties>
-                <jmeter.fileName>TestAPI_Demo_*</jmeter.fileName>
+                <jmeter.fileName>CBS_AppRegister_*</jmeter.fileName>
             </properties>
         </profile>
 
         <profile>
-            <id>AUX_API_Test</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-                <jdk>1.8</jdk>
-            </activation>
+            <id>CBS_AppOnlinePay</id>
             <properties>
-                <jmeter.fileName>AUX_API_Test</jmeter.fileName>
+                <jmeter.fileName>CBS_AppOnlinePay_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_PcNoPayClosed</id>
+            <properties>
+                <jmeter.fileName>CBS_PcNoPayClosed_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_PcOrderRefund</id>
+            <properties>
+                <jmeter.fileName>CBS_PcOrderRefund_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_AppOrder</id>
+            <properties>
+                <jmeter.fileName>CBS_AppOrder_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_TcFixedCoupon</id>
+            <properties>
+                <jmeter.fileName>CBS_TcFixedCoupon_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_TcFirstCoupon</id>
+            <properties>
+                <jmeter.fileName>CBS_TcFirstCoupon*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_TcAfterCoupon</id>
+            <properties>
+                <jmeter.fileName>CBS_TcAfterCoupon_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_AppTerminalApply</id>
+            <properties>
+                <jmeter.fileName>CBS_AppTerminalApply_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>CBS_AppPromotionApply</id>
+            <properties>
+                <jmeter.fileName>CBS_AppPromotionApply_*</jmeter.fileName>
             </properties>
         </profile>
     </profiles>
