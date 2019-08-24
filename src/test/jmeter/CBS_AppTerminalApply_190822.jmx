@@ -949,8 +949,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="小奥直卖_上传终端申请附件" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\7.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\7.jpg</stringProp>
+                  <elementProp name="../resources/images/7.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/7.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -1013,8 +1013,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="小奥直卖_上传终端申请附件" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\5.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\5.jpg</stringProp>
+                  <elementProp name="../resources/images/5.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/5.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -1077,8 +1077,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="小奥直卖_上传终端申请附件" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\6.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\6.jpg</stringProp>
+                  <elementProp name="../resources/images/6.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/6.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -2047,8 +2047,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC中台_上传终端申请附件1" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\1.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\1.jpg</stringProp>
+                  <elementProp name="../resources/images/1.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/1.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -2111,8 +2111,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC中台_上传终端申请附件2" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\2.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\2.jpg</stringProp>
+                  <elementProp name="../resources/images/2.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/2.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -2175,8 +2175,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC中台_上传终端申请附件3" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\3.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\3.jpg</stringProp>
+                  <elementProp name="../resources/images/3.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/3.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -2239,8 +2239,8 @@ if (data.indexOf(&quot;\&quot;retCode\&quot;:\&quot;200\&quot;&quot;) != -1 || d
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="TC中台_上传终端申请附件4" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\4.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\4.jpg</stringProp>
+                  <elementProp name="../resources/images/4.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/4.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>

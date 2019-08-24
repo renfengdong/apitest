@@ -9,7 +9,7 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <stringProp name="TestPlan.user_define_classpath">..\resources\idCard.jar</stringProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="小奥直卖APP_客户入驻" enabled="true">
@@ -886,8 +886,8 @@ vars.get(&quot;phonenum&quot;);
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="身份证正面" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\21.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\21.jpg</stringProp>
+                  <elementProp name="../resources/images/21.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/21.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -949,8 +949,8 @@ vars.get(&quot;phonenum&quot;);
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="身份证反面" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\20.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\20.jpg</stringProp>
+                  <elementProp name="../resources/images/20.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/20.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -1012,8 +1012,8 @@ vars.get(&quot;phonenum&quot;);
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="营业执照" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\22.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\22.jpg</stringProp>
+                  <elementProp name="../resources/images/22.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/22.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -1808,8 +1808,8 @@ vars.put(&quot;idCard&quot;,IdCardGenerator.getIdCard());</stringProp>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="身份证正面" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\21.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\21.jpg</stringProp>
+                  <elementProp name="../resources/images/21.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/21.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>
@@ -1871,8 +1871,8 @@ vars.put(&quot;idCard&quot;,IdCardGenerator.getIdCard());</stringProp>
             <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="身份证反面" enabled="true">
               <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
                 <collectionProp name="HTTPFileArgs.files">
-                  <elementProp name="..\resources\images\20.jpg" elementType="HTTPFileArg">
-                    <stringProp name="File.path">..\resources\images\20.jpg</stringProp>
+                  <elementProp name="../resources/images/20.jpg" elementType="HTTPFileArg">
+                    <stringProp name="File.path">../resources/images/20.jpg</stringProp>
                     <stringProp name="File.paramname">file</stringProp>
                     <stringProp name="File.mimetype">image/jpeg</stringProp>
                   </elementProp>

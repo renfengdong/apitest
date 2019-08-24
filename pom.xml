@@ -10,13 +10,19 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>
+        <jmeter.fileName>CBS_AppRegister_*</jmeter.fileName>
+        <!--        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>-->
     </properties>
     <dependencies>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.35</version>
+        </dependency>
+        <dependency>
+            <groupId>com.shenfen</groupId>
+            <artifactId>idCard</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
     <build>
@@ -103,12 +109,36 @@
                             <goal>copy-resources</goal>
                         </goals>
                         <configuration>
-                            <!-- test可以在环境变量中定义，也可以将下面写成绝对地址 -->
+                            <!-- 复制src/test/resources下的images文件夹到jmeter/resources文件夹下 -->
+                            <outputDirectory>${project.build.directory}/jmeter/resources</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/src/test/resources</directory>
+                                    <includes>
+                                        <include>images/*.*</include>
+                                    </includes>
+                                    <filtering>true</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+
+                    <execution>
+                        <id>copy-resources2</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <!-- 复制测试报告图标到jmeter/results文件夹下 -->
                             <outputDirectory>${project.build.directory}/jmeter/results</outputDirectory>
                             <resources>
                                 <resource>
-                                    <!-- basedir标识所有工程 -->
                                     <directory>${basedir}/src/test/resources</directory>
+                                    <includes>
+                                        <include>collapse.png</include>
+                                        <include>expand.png</include>
+                                    </includes>
                                     <filtering>true</filtering>
                                 </resource>
                             </resources>
