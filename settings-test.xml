@@ -257,5 +257,47 @@ under the License.
                 <jmeter.fileName>CBS_AppPromotionApply_*</jmeter.fileName>
             </properties>
         </profile>
+
+        <profile>
+            <id>CBS_AppProjectApply</id>
+            <properties>
+                <jmeter.fileName>CBS_AppProjectApply_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>IMS_AddMaterials</id>
+            <properties>
+                <jmeter.fileName>IMS_AddMaterials_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>IMS_BalanceCollections</id>
+            <properties>
+                <jmeter.fileName>IMS_BalanceCollections_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>IMS_Orderout</id>
+            <properties>
+                <jmeter.fileName>IMS_Orderout_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>IMS_OrderRefund</id>
+            <properties>
+                <jmeter.fileName>IMS_OrderRefund_*</jmeter.fileName>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>IMS_SalesOrder</id>
+            <properties>
+                <jmeter.fileName>IMS_SalesOrder_*</jmeter.fileName>
+            </properties>
+        </profile>
     </profiles>
 </settings>
