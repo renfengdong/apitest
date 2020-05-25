@@ -10,8 +10,8 @@
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jmeter.fileName>PERFTest_MES_200222</jmeter.fileName>
-        <!--        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>-->
+        <!--        <jmeter.fileName>PERFTest_MES_200222</jmeter.fileName>-->
+        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>
     </properties>
     <dependencies>
         <dependency>
