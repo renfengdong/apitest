@@ -67,10 +67,6 @@
                     <testFilesIncluded>
                         <jMeterTestFile>${jmeter.fileName}.jmx</jMeterTestFile>
                     </testFilesIncluded>
-                    <jmeterExtensions>
-                        <!-- 自定义的jar-->
-                        <artifact>com.shenfen:idCard:1.0</artifact>
-                    </jmeterExtensions>
                 </configuration>
                 <executions>
                     <execution>
