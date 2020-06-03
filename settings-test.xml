@@ -299,5 +299,12 @@ under the License.
                 <jmeter.fileName>IMS_SalesOrder_*</jmeter.fileName>
             </properties>
         </profile>
+        
+        <profile>
+            <id>JmeterDemo</id>
+            <properties>
+                <jmeter.fileName>JmeterDemo</jmeter.fileName>
+            </properties>
+        </profile>
     </profiles>
 </settings>
