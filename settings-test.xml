@@ -185,13 +185,13 @@ under the License.
          | This profile example uses the JDK version to trigger activation, and provides a JDK-specific repo.
         -->
         <profile>
-            <id>CBS_AppRegister</id>
+            <id>JmeterDemo</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
                 <jdk>1.8</jdk>
             </activation>
             <properties>
-                <jmeter.fileName>CBS_AppRegister_*</jmeter.fileName>
+                <jmeter.fileName>JmeterDemo</jmeter.fileName>
             </properties>
         </profile>
 
@@ -202,109 +202,5 @@ under the License.
             </properties>
         </profile>
 
-        <profile>
-            <id>CBS_PcNoPayClosed</id>
-            <properties>
-                <jmeter.fileName>CBS_PcNoPayClosed_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_PcOrderRefund</id>
-            <properties>
-                <jmeter.fileName>CBS_PcOrderRefund_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_AppOrder</id>
-            <properties>
-                <jmeter.fileName>CBS_AppOrder_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_TcFixedCoupon</id>
-            <properties>
-                <jmeter.fileName>CBS_TcFixedCoupon_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_TcFirstCoupon</id>
-            <properties>
-                <jmeter.fileName>CBS_TcFirstCoupon*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_TcAfterCoupon</id>
-            <properties>
-                <jmeter.fileName>CBS_TcAfterCoupon_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_AppTerminalApply</id>
-            <properties>
-                <jmeter.fileName>CBS_AppTerminalApply_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_AppPromotionApply</id>
-            <properties>
-                <jmeter.fileName>CBS_AppPromotionApply_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>CBS_AppProjectApply</id>
-            <properties>
-                <jmeter.fileName>CBS_AppProjectApply_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>IMS_AddMaterials</id>
-            <properties>
-                <jmeter.fileName>IMS_AddMaterials_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>IMS_BalanceCollections</id>
-            <properties>
-                <jmeter.fileName>IMS_BalanceCollections_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>IMS_Orderout</id>
-            <properties>
-                <jmeter.fileName>IMS_Orderout_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>IMS_OrderRefund</id>
-            <properties>
-                <jmeter.fileName>IMS_OrderRefund_*</jmeter.fileName>
-            </properties>
-        </profile>
-
-        <profile>
-            <id>IMS_SalesOrder</id>
-            <properties>
-                <jmeter.fileName>IMS_SalesOrder_*</jmeter.fileName>
-            </properties>
-        </profile>
-        
-        <profile>
-            <id>JmeterDemo</id>
-            <properties>
-                <jmeter.fileName>JmeterDemo</jmeter.fileName>
-            </properties>
-        </profile>
     </profiles>
 </settings>
