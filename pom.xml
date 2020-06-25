@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!--        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>-->
-        <jmeter.fileName>JmeterDemo</jmeter.fileName>
+        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>
+        <!--        <jmeter.fileName>JmeterDemo</jmeter.fileName>-->
         <!-- 测试结果存放路径 -->
         <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
         <!-- 测试报告存放路径 -->
