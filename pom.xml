@@ -119,7 +119,7 @@
                     <transformationSets>
                         <transformationSet>
                             <dir>${jmeter.result.jtl.dir}</dir>
-                            <stylesheet>${project.build.directory}\jmeter\resources\jmeter-results-detail-report.xsl
+                            <stylesheet>${project.build.directory}/jmeter/resources/jmeter-results-detail-report.xsl
                             </stylesheet>
                             <outputDir>${jmeter.result.html.dir}</outputDir>
                             <!-- 把jtl格式转传承html -->
