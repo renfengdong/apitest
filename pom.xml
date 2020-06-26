@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>
-        <!--        <jmeter.fileName>JmeterDemo</jmeter.fileName>-->
+        <!--        <jmeter.fileName>${jmeter.fileName}</jmeter.fileName>-->
+        <jmeter.fileName>JmeterDemo</jmeter.fileName>
         <!-- 测试结果存放路径 -->
         <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
         <!-- 测试报告存放路径 -->
@@ -119,7 +119,8 @@
                     <transformationSets>
                         <transformationSet>
                             <dir>${jmeter.result.jtl.dir}</dir>
-                            <stylesheet>${basedir}\src\test\resources\jmeter-results-detail-report.xsl</stylesheet>
+                            <stylesheet>${project.build.directory}\jmeter\resources\jmeter-results-detail-report.xsl
+                            </stylesheet>
                             <outputDir>${jmeter.result.html.dir}</outputDir>
                             <!-- 把jtl格式转传承html -->
                             <fileMappers>
